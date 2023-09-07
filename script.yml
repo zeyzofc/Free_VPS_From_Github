@@ -15,7 +15,7 @@ jobs:
       run: |
             sudo pip install colab_ssh
             sudo echo "from colab_ssh import launch_ssh 
-            launch_ssh('2Iu9M8QzMkzYm8Ep3L6kjkby6zk_5mrSWyaRGtax4RZ6Yc2Vp', '123')" > ssh.py
+            launch_ssh('NGROK_TOKEN', 'Password')" > ssh.py
             sudo python ssh.py
             sudo usermod --password $(echo "P@ssw0rd!" | openssl passwd -1 -stdin) runneradmin
             sudo systemctl restart ssh
