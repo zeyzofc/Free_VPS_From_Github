@@ -5,7 +5,7 @@ We Need A Github And Ngrok Account
 
 First Step
  
- Copy Script. Yml Code From Repository And Edit This Code With Your NGROK_TOKEN 
+ Copy Script.yml Code From Repository And Edit This Code With Your NGROK_TOKEN 
  
  For SSH Connection Edit Your Password In The Script.
 
