@@ -1,11 +1,12 @@
 # Free_VPS_From_Github
 Free VPS Set-Up
 Requirements
-We Need a Github And Ngrok Account
+We Need A Github And Ngrok Account
 
 First Step
  
  Copy Script. Yml Code From Repository And Edit This Code With Your NGROK_TOKEN 
+ 
  For SSH Connection Edit Your Password In The Script.
 
  ![image](https://github.com/saajan-verma/Free_VPS_From_Github/assets/96654364/1ae2ef22-779c-4456-ac99-44f540063e41)
@@ -26,7 +27,7 @@ Third Step
 
 Fourth Step
 
- Copy Edited Yml Code From Repository And Paste In Main.yml File And Then Clik on Commit Changes.
+ Copy Edited Yml Code From Repository And Paste In Main.yml File And Then Clik On Commit Changes.
  ![image](https://github.com/saajan-verma/Free_VPS_From_Github/assets/96654364/ec66390c-8536-48b6-bf6f-109562e73751)
 
  
