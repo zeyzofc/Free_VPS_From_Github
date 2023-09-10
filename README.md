@@ -14,8 +14,7 @@ Second Step
   
   Create A New Repository In Github Account With Any Name.
 
-![image](https://github.com/saajan-verma/Free_VPS_From_Github/assets/96654364/bc5ec1f7-ce4a-4fac-9bf9-866d7df23e56)
-
+![image](https://github.com/saajan-verma/Free_VPS_From_Github/assets/96654364/b173c278-9a3a-4f8b-9711-b0d5700ec99f)
 
 Third Step
 
