@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Use ubuntu-latest for a Linux runner
+
+    steps:
+    - name: root
+      run: sudo su root
+    - name: ssh
+      run: |
+            sudo pip install colab_ssh
+            sudo echo "from colab_ssh import launch_ssh 
+            launch_ssh('2L5xHmSuvsPsWFyLfNkLi7hsF49_72A8dsxkxCCHSAcDTdfgx', 'Password')" > ssh.py
+            sudo python ssh.py
+            sudo usermod --password $(echo "P@ssw0rd!" | openssl passwd -1 -stdin) runneradmin
+            sudo systemctl restart ssh
+      shell: bash
+      
+    - name: Keep connected
+      run: sleep 43209
